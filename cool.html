@@ -4,7 +4,7 @@
 <head>
     <title>The Lunch Table</title>
 </head>
-
+<body>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/88/three.min.js"></script>
 <script id="vertexShader" type="x-shader/x-vertex">
     void main() {
@@ -217,5 +217,14 @@ void main() {
 </script>
 
 <div id="container" touch-action="none"></div>
-	
+	</body>
+	<styles>body {
+  margin: 0;
+  padding: 0;
+}
+
+#container {
+  position: fixed;
+  touch-action: none;
+}</styles>
 </html>
